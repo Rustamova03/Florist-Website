@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.header nav ul {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.header nav ul li a {
+  color: black;
+}
+.header nav ul li a:hover {
+  color: red;
+  transition: 0.6s;
+}
+.headerimg {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.boxcard {
+  width: 23%;
+  display: flex;
+  gap: 15px;
+}
+
+.arrivalstop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.arrivalstop h1 {
+  font-size: 3rem;
+}
+.arrivalbutton {
+  display: flex;
+  gap: 25px;
+}
+.arrivalbutton button {
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+.arrivalsbottom {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+.arrivalsbottom .arrivalsbottomcard {
+  width: 22%;
+  text-align: center;
+}
+
+/* FORM HTML  */
+
+.contactustop {
+  text-align: center;
+}
+#contact {
+  padding: 50px 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+form button {
+  background-color: blue;
+  color: white;
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+form input {
+  padding: 5px 20px;
+}
+
+tr td,
+tr th {
+  border: 1px solid black;
+  padding: 0 80px;
+}
+td img {
+  width: 40%;
+}
+table{
+    border-collapse: collapse;
+}
+tbody tr td button {
+  padding: 2px 7px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
