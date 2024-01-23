@@ -74,6 +74,66 @@ header {
   text-align: center;
 }
 
+#custom-flower {
+  background-image: url(../image/call-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.custom-flower {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  font-family: "Hello Santtiny";
+}
+.orderbtn {
+  font-size: 0.9rem;
+  padding: 9px 18px;
+  background-color: #f4d9;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  font-weight: bold;
+}
+.contactbtn {
+  font-size: 0.9rem;
+  padding: 9px 18px;
+  background-color: white;
+  color: #f4d9;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  font-weight: bold;
+}
+#florist {
+  background-image: url(../image/download.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.florist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  gap: 20px;
+}
+.florist p{
+    font-size: 1.5rem;
+}
+
+.footertop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 /* FORM HTML  */
 
 .contactustop {
@@ -108,8 +168,8 @@ tr th {
 td img {
   width: 40%;
 }
-table{
-    border-collapse: collapse;
+table {
+  border-collapse: collapse;
 }
 tbody tr td button {
   padding: 2px 7px;
@@ -117,4 +177,16 @@ tbody tr td button {
   color: white;
   border-radius: 5px;
   border: 1px solid transparent;
+}
+.search {
+  padding: 5px 30px;
+  margin: 20px 0;
+}
+.asc {
+  padding: 4px 10px;
+  border-radius: 4px;
+  background-color: green;
+  color: white;
+  border: 1px solid transparent;
+  margin: 0 20px;
 }
