@@ -40,7 +40,7 @@ async function deleteBtn(id, btn) {
   }
 }
 
-form.addEventListener("click", function (e) {
+form.addEventListener("submit", function (e) {
   e.preventDefault();
   let obj = {
     image: allInput[0].value,
@@ -54,9 +54,12 @@ form.addEventListener("click", function (e) {
       allInput[2].value !== ""
     ) {
       axios.post(`${BASE_URL}/products`, obj);
+    } else {
+      window.alert("Butun fieldleri doldurun!");
     }
   }
 });
+
 
 searchBtn.addEventListener("input", function (e) {
   let filtered = dataArray.filter((item) =>

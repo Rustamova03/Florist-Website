@@ -4,7 +4,6 @@ let card = document.querySelector(".arrivalsbottom");
 async function getData() {
   let response = await axios(`${BASE_URL}/products`);
   console.log(response.data);
-//   data(response.data);
 drawTable(response.data)
 }
 getData();
@@ -22,3 +21,4 @@ async function drawTable(data){
         
     });
 }
+
