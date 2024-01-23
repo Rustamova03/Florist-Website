@@ -9,49 +9,49 @@
     {
       "id": "2",
       "image": "./assets/image/product-2.jpg",
-      "title": "Fly Me To The Moon",
+      "title": "aFly Me To The Moon",
       "price": "$27.50"
     },
     {
       "id": "3",
       "image": "./assets/image/product-3.jpg",
-      "title": "Fly Me To The Moon",
+      "title": "bFly Me To The Moon",
       "price": "$27.50"
     },
     {
       "id": "4",
       "image": "./assets/image/product-4.jpg",
-      "title": "Fly Me To The Moon",
+      "title": "cFly Me To The Moon",
       "price": "$27.50"
     },
     {
       "id": "5",
       "image": "./assets/image/product-5.jpg",
-      "title": "Fly Me To The Moon",
+      "title": "dFly Me To The Moon",
       "price": "$27.50"
     },
     {
       "id": "6",
       "image": "./assets/image/product-6.jpg",
-      "title": "Fly Me To The Moon",
+      "title": "gFly Me To The Moon",
       "price": "$27.50"
     },
     {
       "id": "7",
       "image": "./assets/image/product-7.jpg",
-      "title": "Fly Me To The Moon",
+      "title": "hFly Me To The Moon",
       "price": "$27.50"
     },
     {
       "id": "8",
       "image": "./assets/image/product-8.jpg",
-      "title": "Fly Me To The Moon",
+      "title": "iFly Me To The Moon",
       "price": "$27.50"
     },
     {
       "id": "9",
       "image": "./assets/image/product-9.jpg",
-      "title": "Fly Me To The Moon",
+      "title": "jFly Me To The Moon",
       "price": "$27.50"
     },
     {
@@ -59,12 +59,6 @@
       "image": "./assets/image/product-10.jpg",
       "title": "Fly Me To The Moon",
       "price": "$27.50"
-    },
-    {
-      "image": "tfgo",
-      "title": "tfo",
-      "price": "tfo",
-      "id": "fBr99n4"
     }
   ]
 }

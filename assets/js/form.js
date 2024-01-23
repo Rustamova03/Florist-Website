@@ -33,7 +33,12 @@ async function drawTable(data) {
   });
 }
 
-
+async function deleteBtn(id, btn) {
+  if (confirm("Are you delete products?")) {
+    await axios.delete(`${BASE_URL}/products/${id}`);
+    btn.closest("tr").remove();
+  }
+}
 
 form.addEventListener("click", function (e) {
   e.preventDefault();
@@ -60,17 +65,17 @@ searchBtn.addEventListener("input", function (e) {
   drawTable(filtered);
 });
 
-sort.addEventListener("click",function(){
-    let sorted;
-    if(this.innerText==="Ascending"){
-        sorted=products.sort((a,b)=>a.title.localeCompare(b.title))
-        this.innerText="Descending"
-    }else if(this.innerText==="Descending"){
-        sorted=products.sort((a,b)=>b.title.localeCompare(a.title))
-        this.innerText="Default"
-    }else{
-        this.innerText="Ascending"
-        sorted=arrayproducts
-    }
-    drawTable(sorted)
-})
+sort.addEventListener("click", function () {
+  let sorted;
+  if (this.innerText === "Ascending") {
+    sorted = products.sort((a, b) => a.title.localeCompare(b.title));
+    this.innerText = "Descending";
+  } else if (this.innerText === "Descending") {
+    sorted = products.sort((a, b) => b.title.localeCompare(a.title));
+    this.innerText = "Default";
+  } else {
+    this.innerText = "Ascending";
+    sorted = arrayproducts;
+  }
+  drawTable(sorted);
+});
